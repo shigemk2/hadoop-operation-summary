@@ -7,3 +7,7 @@
     - 場所
 - taballは柔軟だけど曖昧かつ複雑
 - RPMかDebパッケージから
+
+- インストールの選択肢
+    - Apache Hadoop
+    - CDH
