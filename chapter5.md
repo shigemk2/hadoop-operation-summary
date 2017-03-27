@@ -11,3 +11,25 @@
 - インストールの選択肢
     - Apache Hadoop
     - CDH
+
+## 設定の概要
+
+- 設定の柔軟性がすごく高い
+- 開発者が知っておくべきパラメータ 10 vs 管理者が知っておくべきパラメータ 150
+
+- hadoop-env.sh
+- core-site.xml
+- hdfs-site.xml
+- mapred-site.xml
+- log4j.properties
+- masters
+- slaves
+- fair-scheduler.xml
+- capacity-scheduler.xml
+- dfs.include
+- dfs.exclude
+- hadoop-policy.xml
+- mapred-queue-acls.xml
+- taskcontroller.cfg
+
+
