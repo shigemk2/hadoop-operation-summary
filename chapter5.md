@@ -80,3 +80,25 @@
 ## MapReduce
 
 特に指定していない場合mapred-site.xmlに設定
+
+- mapred.job.tracker
+- mapred.local.dir
+
+チューニング
+
+- mapred.child.java.opts
+- mapred.child.ulimit
+- mapred.tasktracker.map.tasks.maximum
+- mapred.tasktracker.reduce.tasks.maximum
+- io.sort.mb
+- mapred.compress.map.output
+- mapred.map.output.compression.codec
+- mapred.output.compression.type
+- mapred.job.tracker.handler.count
+- mapred.jobtracker.taskScheduler
+- mapred.reduce.parallel.copies
+- mapred.reduce.tasks
+- tasktracker.http.threads
+- mapred.reduce.slowstart.completed.maps
+
+## ラックのトポロジー
