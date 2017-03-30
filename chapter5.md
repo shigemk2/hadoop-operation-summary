@@ -74,4 +74,9 @@
 - HA: 単一の名前空間を2台のネームノードのどちらかが提供
 - ネームノードフェデレーション: 大規模な名前空間の別々の断片を複数のネームノードが提供
 
+- hdfs-site.xmlのdfs.nameservices
+- ViewFS
+
 ## MapReduce
+
+特に指定していない場合mapred-site.xmlに設定
