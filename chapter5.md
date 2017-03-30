@@ -32,4 +32,9 @@
 - mapred-queue-acls.xml
 - taskcontroller.cfg
 
+## 環境変数とシェルスクリプト
+
+- 多くの環境変数を使う
+- hadoop-env.sh
+
 
