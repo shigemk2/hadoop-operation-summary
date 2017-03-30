@@ -102,3 +102,6 @@
 - mapred.reduce.slowstart.completed.maps
 
 ## ラックのトポロジー
+
+マシン群がデータセンターのラックにどのような物理的配置で置かれているかを定義するもの
+
