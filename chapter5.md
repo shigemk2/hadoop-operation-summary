@@ -37,4 +37,30 @@
 - 多くの環境変数を使う
 - hadoop-env.sh
 
+## ログの設定
+
+- ほとんどあらゆる部分でlog4jが使われている
+    - 設定ファイルはlog4j.properties
+    - 設定は結構複雑
+
+## HDFS
+
+- プロパティ群はほとんどhdfs-site.xmlで設定されている
+    - fs.default.name
+    - dfs.name.dir
+    - dfs.data.dir
+    - fs.checkpoint.dir
+    - dfs.permissions.supergroup
+    - io.file.buffer.size
+    - dfs.balance.bandwidthPerSec
+    - dfs.block.size
+    - dfs.datanode.du.reserved
+    - dfs.namenode.handler.count
+    - dfs.datanode.failed.volumes.tolerated
+    - dfs.hosts
+    - dfs.host.exclude
+    - fs.trash.interval
+
+## 高可用性ネームノード
+
 
