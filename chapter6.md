@@ -16,4 +16,15 @@
 - シンプルモード(デフォルト)
 - セキュアモード(Kerberos経由で強力な認証をサポート)
 
+Kerberosプロトコルを使ってユーザーやデーモン自身を認証すること
+
+## アイデンティティ
+
+- ユーザーがホストのオペレーションシステム上の誰であるかということ
+- HDFSやMapReduceにおいて誰であるのかということ
+
+わけのわからないエラー
+
+`Exception encounterd while connectiong to the server`
+
 
