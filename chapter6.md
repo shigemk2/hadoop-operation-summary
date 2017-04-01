@@ -27,4 +27,13 @@ Kerberosプロトコルを使ってユーザーやデーモン自身を認証す
 
 `Exception encounterd while connectiong to the server`
 
+## KerberosとHadoop
 
+- Kerberosプロトコルを通して強力な認証をサポート
+- サーバーが検証できる有効なKerberosのチケットを提示
+- Kerberosには多くの実装と多くのプロトコル
+- プリンシパル ユーザー
+
+- KDC(Key Distribution Center)
+    - 認証サーバー
+    - チケット発行チケット
