@@ -34,3 +34,13 @@
     - 結構多いトラブル(HadoopMLの質問もこれでぜんぶ片がつく)
 - ネットワークの分断
     - メッセージングプロセスのガベージコレクションがネットワーク障害と誤認される可能性
+
+## 9-3 電源ケーブルはつながっているか
+### E-SPORE
+
+- 環境 environment
+- スタック stack
+- パターン pattern
+- 出力 output
+- リソース resources
+- イベントの相関 event correlation
