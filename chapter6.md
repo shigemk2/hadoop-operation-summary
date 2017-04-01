@@ -91,3 +91,49 @@ Kerberosプロトコルを使ってユーザーやデーモン自身を認証す
     - hadoop.log.dir
     - mapred.tasktracker.group
     - min.user.id
+
+## 認可
+
+ある操作をユーザーが行うことが認可されているかどうかを評価する処理
+
+### HDFS
+
+- HDFSのパーミッション
+    - 読み込み
+    - 書き込み
+    - 実行
+
+### MapReduce
+
+MapReduceのユーザー
+
+- クラスタの所有者
+- クラスタの管理者
+- キューの管理者
+- ジョブの所有者
+
+- ACLの定義と有効化
+    + mapred-site.xml
+    + mapred-queue-acls.xml
+
+- その他のツールとシステム
+    - Apache Hive
+    - Apache HBase
+    - Apache Oozie
+    - Hue
+    - Apache Sqoop
+    - Apache Flume
+    - Apache ZooKeeper
+    - ApackePig/Cascading/Crunch
+
+## システムの構築
+
+設計方針
+
+- セキュアにするかしないか
+- すべてのノード上のすべてのユーザーとグループ
+- ローカルKerberosKDCの実行
+- アクセスを反映したHDFSの階層の確率
+- アクセス連携のためのゲートウエイサービスの使用
+
+- セキュアにするか
