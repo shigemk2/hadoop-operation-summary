@@ -53,7 +53,6 @@
 
 ### HDFSのチェック
 
--
 - HDFSの空き容量の絶対値(Free)が妥当な閾値以上か
 - メタデータのパスの絶対数がdfs.name.dirで指定されているパスの数と一致すること
 - MissingBlocksとCorruptBlocksが妥当な閾値より低い
