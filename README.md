@@ -1,3 +1,3 @@
 # hadoop-operation-summary
 
-http://shop.oreilly.com/product/0636920025085.do
+https://www.oreilly.co.jp/books/9784873116525/
